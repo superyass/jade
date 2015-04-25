@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/http.jar"/>
+	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/iiop.jar"/>
+	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/jade.jar"/>
+	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/jadeTools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/commons-codec/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/jansi-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
