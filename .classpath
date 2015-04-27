@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/jadeTools.jar"/>
 	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/Support MAS/jade/JADE/lib/commons-codec/commons-codec-1.3.jar"/>
 	<classpathentry kind="lib" path="C:/jansi-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/superyass/Desktop/Master Miage 2/Multi Agents/guava-18.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
