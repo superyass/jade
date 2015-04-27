@@ -130,9 +130,10 @@ public class SellerNegotiator extends Agent {
 				}else if(msg.getPerformative() == ACLMessage.PROPOSE){
 					
 					int profit = (int) (bookProfit.get(book)/100);
+					int prixFinal = randInt(bookPrix.get(book) - (bookPrix.get(book) * profit ), bookPrix.get(book));
 					
-					//si le prix proposé est inferieur au prix sans profit, on refuse
-					if(price < (bookPrix.get(book) - bookPrix.get(book)*profit ) ){	
+					//si le prix proposé est inferieur au prix final generé randomly
+					if(price < prixFinal ){	
 						
 						// on evoie un refus puis une proposition
 						ACLMessage refus = new ACLMessage(ACLMessage.REJECT_PROPOSAL);
@@ -141,7 +142,6 @@ public class SellerNegotiator extends Agent {
 						refus.setContent(book + "," + price);
 						System.err.println(getLocalName()+"[Negociation]: rejet de la  proposition de "+msg.getSender().getLocalName()+" ,pour le prix: "+price+" pour le book: "+book);
 						
-						int prixFinal = randInt(bookPrix.get(book) - (bookPrix.get(book) * profit ), bookPrix.get(book));
 
 						ACLMessage propose = new ACLMessage(ACLMessage.PROPOSE);
 						propose.addReceiver(msg.getSender());
